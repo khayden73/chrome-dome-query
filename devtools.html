@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="devtools.css">
+</head>
+<body>
+<header class="page-header">
+    <h1>Query This Page's DOM</h1>
+</header>
+<main class="page-content">
+    <ul class="action-buttons">
+        <li>
+            <p class="action-description">find all images missing alt text</p>
+            <button class="go-btn" data-action="imgNoAlt">go</button>
+        </li>
+        <li>
+            <p class="action-description">find all external scripts</p>
+            <button class="go-btn" data-action="extScripts">go</button>
+        </li>
+        <li>
+            <p class="action-description">find open graph meta tags</p>
+            <button class="go-btn" data-action="ogMeta">go</button>
+        </li>
+    </ul>
+    <pre class="results-display"></pre>
+</main>
+<script src="devtools.js"></script>
+</body>
+</html>

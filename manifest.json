@@ -1,0 +1,17 @@
+{
+    "name": "Chrome Dome Query",
+    "description": "Run queries on the DOM",
+    "version": "0.2",
+    "manifest_version": 3,
+    "permissions": ["storage", "activeTab", "scripting", "http://*/*", "https://*/*"],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "options_page": "options.html",
+    "devtools_page": "devtools.html",
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}
